@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+nav {
+    background-color: #800016;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1700px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+nav a {
+    /* font-size: 1.00rem; */
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px 20px;
+    border-radius: 5px 5px 5px 5px
+}
+
+nav a:hover {
+    color: #FFFFFF;
+    background-color: #C00021;
+}
+
+nav img {
+    /* width: 80px; */
+    height: 80px;
+    /* object-fit: cover; */
+}
+
+.nav-right a {
+    margin-left: 10px
+}
+
+#header-index {
+    display: flex;
+    height: 92vh;
+    background-image: url(../images/Spider-Men.webp);
+    background-size: 100% 100%;
+    border-top: 5px solid #FFFFFF;
+    border-bottom: 5px solid #FFFFFF;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.25rem;
+    color: #FFFFFF;
+}
+
+.header-text {
+    font-size: 1.05rem;
+    color: #FFFFFF;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+a.header-button {
+    /* font-size: 1.00rem; */
+    display: block;
+    padding: 5px 50px;
+    color: #FFFFFF;
+    border: 5px solid #800016;
+    background-color: #800016;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a.header-button:hover {
+    border: 5px solid #C00021;
+    background-color: #C00021;
+    color: #FFFFFF
+}
+
+#main-index {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 92vh;
+    background-color: #000000;
+}
+
+.h2-index {
+    padding: 80px 0px 40px 0px;
+    font-size: 2.25rem;
+    max-width: 1500px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+.main-container {
+    display: flex;
+    gap: 50px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.games-content {
+    flex: 1;
+    border: 5px solid #800016;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #A0001C;
+
+}
+
+.games-content img {
+    width: 100%;
+    height: 200px;
+
+}
+
+h3 {
+    font-size: 1.85rem;
+    padding: 0px 30px;
+    color: #FFFFFF;
+}
+
+.star {
+    font-size: 2.25rem;
+    display: flex;
+    /* padding: 0px 30px; */
+    padding-left: 30px;
+}
+
+.checked-star {
+    /* display: flex; */
+    color: yellow;
+}
+
+.unchecked-star {
+    /* display: flex; */
+    color: gray;
+    padding-left: 7px;
+}
+
+.main-text {
+    color: #000000;
+    padding: 0px 30px;
+    color: #FFFFFF;
+}
+
+.main-link {
+    padding: 0px 30px 20px 30px;
+}
+
+a.main-button {
+    font-size: 0.95rem;
+    display: block;
+    padding: 10px 10px;
+    margin-right: 300px;
+    color: #FFFFFF;
+    border: 5px solid #800016;
+    background-color: #800016;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a.main-button:hover {
+    border: 5px solid #C00021;
+    background-color: #C00021;
+    color: #FFFFFF
+}
+
+footer {
+    background-color: #800016;
+}
+
+.footer-container {
+    /* display: flex;
+    flex-direction: column; */
+    /* padding: 50px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    width: 80px;
+    /* height: 80px; */
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.footer-text {
+    color: #FFFFFF;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px 20px;
+    border-radius: 5px 5px 5px 5px
+}
+
+.footer-links a:hover {
+    color: #FFFFFF;
+    background-color: #C00021;
+}
+
+.footer-links a {
+    margin-left: 10px;
+}
+
+.footer-social {
+    padding-top: 10px;
+}
+
+.footer-social img {
+    width: 40px;
+    /* height: 40px; */
+    /* object-fit: cover; */
+}
+
+#header-contact {
+    display: flex;
+    height: 30vh;
+    background-color: #C00021;
+    border-top: 5px solid #FFFFFF;
+    border-bottom: 5px solid #FFFFFF;
+}
+
+#main-contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #C00021;
+}
+
+.h2-contact {
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 2.00rem;
+}
+
+.main-contact-container {
+
+    display: flex;
+    justify-content: center;
+}
+
+.contact-field {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    font-size: 1.00rem;
+    padding: 10px;
+    border: 3px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 1.00rem;
+    color: #FFFFFF;
+}
+
+.label {
+    color: #FFFFFF;
+}
+
+.name {
+    display: flex;
+    gap: 20px;
+}
+
+.first-name {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.surname {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.residence-birth-date {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.residence {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.birth-date {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.subject {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.subject select {
+    padding: 10px;
+    border: 3px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.message input {
+    padding-bottom: 70px;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.yes-no {
+    display: flex;
+    gap: 25px;
+}
+
+.yes {
+    display: flex;
+    gap: 10px;
+}
+
+.no {
+    display: flex;
+    gap: 10px;
+}
+
+.terms-and-conditions {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+button {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 0;
+    background-color: #800016;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+}
